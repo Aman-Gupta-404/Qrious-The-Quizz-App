@@ -1,0 +1,93 @@
+.login-container {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.login-header > h1 {
+  width: 100%;
+  text-align: start;
+  margin: 0px;
+}
+
+.login-header > p {
+  width: 100%;
+  text-align: start;
+  margin: 0px;
+}
+
+.login-left > img {
+  width: 70%;
+}
+
+.login-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-form-inp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.login-form-inp > label {
+  width: 70%;
+  text-align: start;
+}
+.login-form-inp > input {
+  width: 70%;
+  padding: 10px 5px;
+  border-radius: 8px;
+  border: 0.5px solid lightgray;
+}
+
+.login-form-inp > button {
+  width: 73%;
+  background-color: #7e57c2;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 9px;
+}
+
+.login-form-inp > p {
+  width: 70%;
+  text-align: start;
+}

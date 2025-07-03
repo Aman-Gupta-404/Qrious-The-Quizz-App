@@ -91,3 +91,13 @@
   width: 70%;
   text-align: start;
 }
+
+@media only screen and (max-width: 600px) {
+  .login-right {
+    width: 100%;
+  }
+
+  .login-left {
+    display: none;
+  }
+}
